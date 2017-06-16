@@ -30,7 +30,7 @@
     <!-- Plugins -->
     <!-- Core plugins -->
 
-                <gap:plugin name="cordova-plugin-keyboard"              source="npm" />
+                <plugin name="cordova-plugin-keyboard"              source="npm" />
 
         <plugin name="cordova-plugin-device"              source="npm" />
     <plugin name="cordova-plugin-file"                source="npm" />
