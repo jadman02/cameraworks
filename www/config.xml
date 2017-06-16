@@ -29,10 +29,9 @@
 
     <!-- Plugins -->
     <!-- Core plugins -->
-<plugin name="org.apache.cordova.camera">
-      <variable name="CAMERA_USAGE_DESCRIPTION" value="App would like to access the camera." />
-      <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="App would like to access the library." />
-  </plugin>
+
+                <plugin name="cordova-plugin-keyboard"              source="npm" />
+
         <plugin name="cordova-plugin-device"              source="npm" />
     <plugin name="cordova-plugin-file"                source="npm" />
     <plugin name="cordova-plugin-file-transfer"       source="npm" />
