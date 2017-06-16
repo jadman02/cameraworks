@@ -29,7 +29,7 @@
 
     <!-- Plugins -->
     <!-- Core plugins -->
-    <plugin name="cordova-plugin-camera"              source="npm" />
+    <plugin name="cordova-plugin-camera"              source="npm"><variable name="CAMERA_USAGE_DESCRIPTION" value="access" /><variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="library" /></plugin>
     <plugin name="cordova-plugin-device"              source="npm" />
     <plugin name="cordova-plugin-file"                source="npm" />
     <plugin name="cordova-plugin-file-transfer"       source="npm" />
