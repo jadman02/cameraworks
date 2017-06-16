@@ -35,8 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         alert(device.uuid);
-        navigator.camera.getPicture(conSuccess, conFail, { quality: 50,
-    destinationType: Camera.DestinationType.FILE_URI });
+
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
